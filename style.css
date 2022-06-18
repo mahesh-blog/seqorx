@@ -1,0 +1,295 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body * {
+	font-family: 'Lato', sans-serif;
+}
+
+.header-text-wrapper p {
+	font-weight: 300;
+	text-align: center;
+}
+
+.services-wrapper {
+	padding: 0 0 50px 0;
+}
+
+.services-title p {
+	font-size: 40px;
+	font-weight: 700;
+	padding: 0 0 20px 0;
+}
+
+.image-body {
+	font-size: 30px;
+	font-weight: 400;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	padding: 0 25px;
+	width: 100%;
+	background-color: rgba(43, 101, 168, 0.7);
+}
+
+.image-body p {
+	margin: 5px 0 5px 0;
+	font-size: 28px;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: bold;
+	line-height: 1.2;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.box--wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.box--content {
+	padding: 0 15px;
+	max-width: 25%;
+	flex: 0 25%;
+}
+
+.box--content .image-wrapper {
+	position: relative;
+}
+
+.box--content .image-wrapper img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.services--description {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.services--cta {
+	margin-top: 12px;
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	display: inline-block;
+	position: relative;
+}
+
+.services--cta::after {
+	content: "";
+	background-image: url(./next.png);
+	height: 14px;
+	width: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -24px;
+	top: 5.5px;
+}
+
+.offer-desc {
+	text-align: center;
+}
+
+.desc-title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.bottom-design-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0 50px 0;
+}
+
+.right-line {
+	border: 1px solid #949494;
+	width: 100px;
+	margin: 0 10px 0 0;
+}
+
+.left-line {
+	border: 1px solid #949494;
+	width: 100px;
+	margin: 0 10px 0 0;
+}
+
+.design-box {
+	height: 7px;
+	width: 7px;
+	background-color: #949494;
+	margin: 0 10px 0 0;
+}
+
+.offer-title {
+	display: flex;
+}
+
+.offer-subtitle p {
+	font-size: 23px;
+	font-weight: 600;
+	padding: 0 0 0 10px;
+}
+
+.offer-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+}
+
+.offer-1 {
+	flex: 0 25%;
+	padding: 0 25px 0 0;
+}
+
+.offer-icon img {
+	padding-top: 10px;
+}
+
+.security-details-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #191970;
+	opacity: 0.8;
+}
+
+.security-body {
+	padding: 0 43px;
+
+}
+
+.security-body p {
+	color: white;
+}
+
+.footer-navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-navbar a {
+	text-decoration: none;
+	color: #949494;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 50px 30px 20px 30px;
+
+}
+
+.bottom-line {
+	border-bottom: 2px dotted red;
+}
+
+.privacy-policy {
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+.privacy-footer {
+	text-align: center;
+	font-size: 14px;
+}
+
+.navbar-wrapper {
+	position: relative;
+}
+
+.company-logo {
+	position: absolute;
+	top: 0;
+}
+
+.navigation-wrapper {
+	background-image: url(./hero-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 338px;
+    position: relative;
+}
+
+.banner--content {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.banner--content h2, .banner--content h5 {
+   color: #fff;
+}
+
+.navigation-wrapper::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(43, 101, 168, 0.7);
+    content: "";
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: white;
+}
+
+.header-wrapper a {
+	padding: 20px 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.header-wrapper a.active {
+    background-color: red;
+	color: black;
+}
+
+.header-wrapper a:hover {
+	background-color: red;
+	color: black;
+}
+
+.header-wrapper img {
+	padding: 0 30px;
+}
+
+.company-logo img {
+	background-color: white;
+	padding: 10px;
+}
+
+.social-icon-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px 10px 10px 0;
+}
+
+.social-icon-wrapper img {
+	padding: 0 5px;
+	height: 15px;
+}
+
+.header-text-wrapper {
+	padding: 40px 0;
+}
+
+.header-text-wrapper p {
+    color: #000;
+}
+
+.social-icon-wrapper a {
+	padding: 0;
+}
